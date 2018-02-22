@@ -4,12 +4,12 @@ export default {
   },
   getters: {
     getUserName(state) {
-      return state.userName
+      return state.userName;
     },
   },
   mutations: {
     setUserName(state, userName) {
-      state.userName = userName
+      state.userName = userName;
     },
   },
   actions: {
@@ -17,4 +17,4 @@ export default {
 
     },
   },
-}
+};

@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import storeManager from './storeManager'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import storeManager from './storeManager';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
-const store = new Vuex.Store(storeManager)
+const store = new Vuex.Store(storeManager);
 
-export default store
+export default store;

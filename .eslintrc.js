@@ -41,8 +41,10 @@ module.exports = {
         'e' // for e.returnvalue
       ]
     }],
-    "semi": ["error", "never"],
+    // "semi": ["error", "never"],
     // allow optionalDependencies
+    "before": true,
+    "after": true,
     'import/no-extraneous-dependencies': ['error', {
       optionalDependencies: ['test/unit/index.js']
     }],

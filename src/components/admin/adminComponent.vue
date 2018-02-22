@@ -6,8 +6,8 @@
   export default {
     computed: {
       getAdminName() {
-        return this.$store.getters.getAdminName
+        return this.$store.getters.getAdminName;
       },
     },
-  }
+  };
 </script>
